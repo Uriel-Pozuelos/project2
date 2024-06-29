@@ -1,0 +1,82 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+
+# Created by flutter package
+# This is generated and should not be edited or checked in.
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-version
+
+# IntelliJ related
+*.iml
+.idea/
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# Files and Directories created by pub
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Symbolicated files
+*.symbols
+
+# Generated files
+.dart_tool/
+.packages
+build/
+flutter_*.png
+generated_plugin_registrant.dart
+
+# Android related
+local.properties
+**/android/app/build/
+**/android/app/app.iml
+**/android/.gradle/
+**/android/captures/
+
+# Exclude all files in android/app/res except AndroidManifest.xml
+android/app/res/*
+!android/app/res/values/
+!android/app/res/values/strings.xml
+!android/app/src/main/AndroidManifest.xml
+
+# iOS related
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/.generated/
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Mac related
+*.DS_Store
+
+# Windows related
+**/windows/flutter/ephemeral/
+
+# Web related
+**/web/.dart_tool/
+**/web/.packages
+**/web/build/
+
+# Linux related
+**/linux/flutter/ephemeral/
+
+# MinGW related
+**/linux/build/
